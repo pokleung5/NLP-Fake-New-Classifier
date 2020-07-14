@@ -1,7 +1,7 @@
 # NLP-Fake-New-Classifier (School Project)
 Datasets download from https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset. As a start for Neutral language processing with scikit learn in python.
 
----
+------
 
 ## Preprocessing:
 
@@ -43,9 +43,9 @@ Five steps are included for:
   
 -	Word ‘took’ is identified as a verb, so after lemmatizing, it becomes ‘take’. 
 
----
+------
 
-### Result
+### Result:
 
 |Model| Precision | Recall | F1 Score | Time| 
 |Decision Tree Classifier| 0.95| 0.96| 0.95| 343s|
