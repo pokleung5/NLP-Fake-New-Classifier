@@ -17,7 +17,7 @@ Five steps are included for:
 	2.	[('Sam', 'PERSON'), ('$50 dollars', 'MONEY'), ('yesterday', 'DATE')]
 
 
-- The word will then be replaced with its label return, like “Sam” will be replaced with “_PERSON”, “$50 dollars” will be replaced with “_MONEY”. A “_” is added to beginning to differentiate the label with the English word.
+- The word will then be replaced with its label return, like “Sam” will be replaced with “\_PERSON”, “$50 dollars” will be replaced with “\_MONEY”. A “\_” is added to beginning to differentiate the label with the English word.
 
 **3.	Tokenize sentences**
 -	This process divided the article (or sentence) into smaller parts, which we called token. In the nltk library, sentences usually are divided based on the regular expression. For example:
