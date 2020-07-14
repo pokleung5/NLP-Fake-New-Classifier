@@ -26,7 +26,7 @@ Five steps are included for:
 	2.	['Sam', 'took', '$', '50', 'dollars', 'yesterday']
   
 -	Combined with previous steps, the final tokens of the sentence will be:
--	['_PERSON', 'took', '_MONEY', '_DATE']
+	-	['_PERSON', 'took', '_MONEY', '_DATE']
 
 **4.	Remove Stopword**
 -	Stopword is the name of the words that we wanted to remove. Usually, words will no meaning like prepositions, pronouns, etc, or words appear many times will be marked as a Stopword. Therefore, in this process, it removed the tokens, generated from the previous steps, if the token is a Stopword, to reduce the effect of meaningless words.  
