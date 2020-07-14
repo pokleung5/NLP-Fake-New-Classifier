@@ -45,6 +45,7 @@ Five steps are included for:
 ## Result:
 
 |Model| Precision | Recall | F1 Score | Time| 
+|-| - | - | - | -| 
 |Decision Tree Classifier| 0.95| 0.96| 0.95| 343s|
 |Random Forest Classifier| 0.95| 0.96| 0.95| 154s| 
 |Multinomial Naive Bayes| 0.93| 0.90| 0.91| 3s| 
